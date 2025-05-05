@@ -82,18 +82,12 @@ This project implements a robust machine learning system for network security an
 
 ## Result Pictures
 
-Below are some visualizations of the results from our security testing:
 
-1. **Evasion Attack Visualization**:
-   ![Evasion Attack](images/evasion_attack.png)
-   - This image shows the impact of evasion attacks on the model's decision boundary.
+**Comparison the model performance under different attacks**:
+   ![Evasion Attack](results/accuracy_comparison.png)
 
-2. **Poisoning Attack Visualization**:
-   ![Poisoning Attack](images/poisoning_attack.png)
-   - This image illustrates the effect of poisoning attacks on the model's accuracy.
-
-Ensure that the images are placed in the `images` directory within the project structure. If the directory or images do not exist, please add them accordingly.
-
+Check the results folder for more visualizations.
+ 
 ## Usage
 
 1. Install dependencies:

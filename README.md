@@ -100,7 +100,7 @@ As discussed so far, the model showed strong performance against evasion attacks
 **Evasion Attacks**:
 - FGSM Attack: Original accuracy improved to 79.64%, with attack accuracy at 80.11%.
 - PGD Attack: Similar improvements, with attack accuracy at 80.16%.
-**Poisoning Attack**: **Accuracy improved to 67.23%, indicating better resilience to poisoning**.
+- **Poisoning Attack**: **Accuracy improved to 67.23%, indicating better resilience to poisoning**.
 
 ## Conclusion
 

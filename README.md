@@ -87,6 +87,24 @@ This project implements a robust machine learning system for network security an
    ![Evasion Attack](results/accuracy_comparison.png)
 
 Check the results folder for more visualizations.
+
+## Changes Made
+
+As discussed so far, the model showed strong performance against evasion attacks but was vulnerable to poisoning attacks. The goal was to enhance its robustness across both attack types. So, the following changes have been made to improve the model performance:
+
+- Adversarial Training: Integrated adversarial training using FGSM to improve resilience against both evasion and poisoning attacks.
+- Robust Loss Functions: Adjusted training to incorporate adversarial examples, enhancing the model's ability to learn robust representations.
+- Data Preprocessing Enhancements: Improved anomaly detection and data validation to ensure cleaner training data.
+
+## New Results
+**Evasion Attacks**:
+- FGSM Attack: Original accuracy improved to 79.64%, with attack accuracy at 80.11%.
+- PGD Attack: Similar improvements, with attack accuracy at 80.16%.
+**Poisoning Attack**: Accuracy improved to 67.23%, indicating better resilience to poisoning.
+
+## Conclusion
+
+The model now demonstrates enhanced robustness against both evasion and poisoning attacks, providing a more reliable and secure solution for network security analysis.
  
 ## Usage
 
